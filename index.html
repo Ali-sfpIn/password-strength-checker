@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+    <title>Password strength checker</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div
+          class="password-container d-flex flex-column align-items-center rounded text-bold mx-auto shadow my-5 text-center"
+        >
+          <label>Password strength checker</label>
+          <input
+            placeholder=" Enter Your Password..."
+            class="border-0 my-3 rounded"
+            type="text"
+          />
+          <div class="strength-container mb-2 bg-white rounded-pill">
+            <span class="strength-range rounded-pill fs-6 mb-1">
+              &nbsp;&nbsp;nonsense!</span
+            >
+          </div>
+          <span class="fw-normal hint"
+            >+hint: the strength bar would change by the type of letters that
+            you put in your password so try to add uppercase letter, numbers and
+            symbols to increase the security of your password</span
+          >
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

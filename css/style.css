@@ -1,0 +1,37 @@
+@font-face {
+  font-family: security;
+  src: url("../fonts/Autobusbold-1ynL.ttf");
+}
+body {
+  background: hsla(189, 100%, 50%, 1);
+}
+.password-container {
+  width: 600px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.842);
+  font-family: security;
+  font-size: 20px;
+}
+.strength-container {
+  height: 20px;
+  width: 80%;
+}
+.strength-range {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: hsla(0, 100%, 42%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(0, 100%, 42%, 1) 0%,
+    hsla(117, 100%, 44%, 1) 100%
+  );
+  transition: width 0.3s;
+}
+.hint {
+  color: rgb(103, 102, 102);
+}
+input::placeholder,
+input {
+  font-size: 16px;
+}
